@@ -1,9 +1,10 @@
 #include "user_script.h"
-void setup() {
+void UserScript::setup() {
   Serial.begin(115200);
   pinMode(2, OUTPUT);
 }
-void loop() {
+
+void UserScript::loop() {
   static unsigned long timer = 0;
   if (millis() - timer > 1000) {
     timer = millis();
