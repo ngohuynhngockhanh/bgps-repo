@@ -1,0 +1,1 @@
+#define SHOW_WIFI_STATUS 2
